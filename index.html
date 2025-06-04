@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <!-- Ajusta el diseño en dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio Personal</title>
+    <!-- Enlace a tu hoja de estilos externa -->
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+</head>
+<body>
+    <!-- Título principal del portafolio -->
+    <h1>Vanessa Gomez Lopez - Coder Riwi</h1>
+    <!-- Sección "Acerca de mí" con identificador para navegación interna -->
+    <section>
+        <h2 id="Acercademi">Acerca de mí.</h2>
+        <p>Hola, soy Vanessa Gomez Lopez.</p>
+        <p>Tengo 19 años, me gusta el desarrollo de software.</p>
+    </section>
+    <!-- Imagen de presentación con texto alternativo -->
+    <img src="Foto.jpeg" alt="Foto Vanessa" width="200" />
+    <!-- Lista de habilidades o herramientas -->
+    <ul>
+        <li>Páginas Web (Google Sites).</li>
+        <li>Formularios Web (Google Docs y Microsoft Forms).</li>
+    </ul>
+    <!-- Sección de proyectos -->
+    <section>
+        <h2 id="proyectos">Proyectos.</h2>
+
+        <!-- Primer proyecto descrito -->
+        <h3>Proyecto 1: Mi Portafolio Personal.</h3>
+        <p>Este es mi primer proyecto donde construí un portafolio personal usando HTML y CSS.</p>
+    </section>
+    <!-- Tabla con información de los proyectos -->
+    <table>
+        <tr>
+            <th>Nombre Proyecto</th>
+            <th>Tecnología</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <td>Mi Portafolio Personal</td>
+            <td>HTML</td>
+            <td><a href="https://github.com/Vanessa55-rgb" target="_blank" rel="noopener noreferrer">Github</a></td>
+        </tr>
+    </table>
+    <!-- Formulario de contacto -->
+    <form action="/enviar" method="post">
+        <!-- Campo para nombre -->
+        <label for="nombre">Nombre:</label><br />
+        <input type="text" id="nombre" name="nombre" required /><br /><br />
+        <!-- Campo para email -->
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+        <!-- Campo para mensaje -->
+        <label for="mensaje">Mensaje:</label><br />
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br /><br />
+        <!-- Botón para enviar el formulario -->
+        <input type="submit" value="Enviar" /><br /><br />
+    </form>
+    <!-- Enlace adicional a tu GitHub -->
+    <a href="https://github.com/Vanessa55-rgb" target="_blank" rel="noopener noreferrer">Github</a>
+    <!-- Navegación interna ubicada al final, como en tu versión original -->
+    <nav>
+        <br />
+        <!-- Enlace que baja a la sección Acerca de mí -->
+        <a href="#Acercademi">Acerca de mí</a><br /><br />
+        <!-- Enlace que baja a la sección de Proyectos -->
+        <a href="#proyectos">Proyectos</a>
+    </nav>
+</body>
+</html>
